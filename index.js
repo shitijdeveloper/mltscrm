@@ -10,7 +10,7 @@ const jwtKey = process.env.JWT_SECRET_KEY || 'default_jwt_secret';
 const multer = require('multer');
 const path = require('path');
 const Customer = require('./Custmoer'); 
-const Port = process.env.PORT || 10000;
+const Port = process.env.PORT || 8000;
 const server=require('./Server')
 const session=require('express-session')
 app.use(cors());
